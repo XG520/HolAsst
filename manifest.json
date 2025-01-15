@@ -1,0 +1,10 @@
+{
+  "domain": "hol_asst",
+  "name": "HolAsst",
+  "version": "0.0.1",
+  "documentation": "https://github.com/XG520/HolAsst",
+  "dependencies": [],
+  "codeowners": ["@XG520"],
+  "config_flow": true,
+  "requirements": []
+}
