@@ -1,4 +1,3 @@
-"""Holiday Assistant integration."""
 from homeassistant.core import HomeAssistant
 from homeassistant.config_entries import ConfigEntry
 from .data_manager import HolidayDataManager

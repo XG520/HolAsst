@@ -3,7 +3,7 @@
         "step": {
             "user": {
                 "title": "假日助手配置",
-                "description": "请输入日期，格式为YYYY-MM-DD。例如：2025-10-01",
+                "description": "请输入日期，格式为MMDD。例如：1001为10月1日。多个日期用英文逗号分隔。",
                 "data": {
                     "holidays": "法定节假日",
                     "force_workdays": "强制工作日",
