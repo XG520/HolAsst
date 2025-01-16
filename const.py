@@ -34,6 +34,7 @@ DEFAULT_HOLIDAYS: Dict[str, str] = {
 DEFAULT_FORCE_WORKDAYS = "0126,0208,0427,0928,1011"
 
 DOMAIN = "hol_asst"
+LOGGER_NAME = f"{DOMAIN}_logger"
 
 CONF_HOLIDAYS = "holidays"
 CONF_FORCE_WORKDAYS = "force_workdays"
@@ -41,6 +42,7 @@ CONF_CUSTOM_REST_DAYS = "rest_days"
 CONF_TIMEZONE = "timezone"
 
 PLATFORM = "sensor"
+
 
 SENSOR_NAME_TODAY = "日期"
 SENSOR_NAME_HOLIDAY = "是否为休息日"
