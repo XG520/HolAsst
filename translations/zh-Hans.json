@@ -3,17 +3,17 @@
         "step": {
             "user": {
                 "title": "假日助手配置",
-                "description": "请输入日期，格式为MMDD。例如：1001为10月1日。多个日期用英文逗号分隔。法定节假日必须是json格式，例如：{\"2025-01-01\": \"元旦\", \"2025-01-28\": \"春节\"}。",
+                "description": "不喜欢home assistant的节假日配置？试试这个！",
                 "data": {
-                    "holidays": "法定节假日",
-                    "force_workdays": "强制工作日",
-                    "rest_days": "自定义休息日",
+                    "holidays": "法定节假日(格式必须是json格式，与默认格式一致)",
+                    "force_workdays": "工作日（格式为MMDD，与默认一致）",
+                    "rest_days": "自定义休息日（格式同上）",
                     "timezone": "时区"
                 }
             }
         },
         "error": {
-            "invalid_date": "日期格式不正确，请使用MMDD格式"
+            "invalid_date": "日期格式不正确，请根据提示输入"
         }
     }
 }
