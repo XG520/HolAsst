@@ -1,7 +1,7 @@
 {
   "domain": "hol_asst",
   "name": "节假日助手",
-  "version": "1.0",
+  "version": "1.0.1",
   "documentation": "https://github.com/XG520/HolAsst",
   "dependencies": [],
   "codeowners": ["@XG520"],
