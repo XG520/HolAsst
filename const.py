@@ -42,7 +42,7 @@ CONF_FORCE_WORKDAYS = "force_workdays"
 CONF_CUSTOM_REST_DAYS = "rest_days"
 CONF_TIMEZONE = "timezone"
 
-PLATFORM = "sensor"
+PLATFORMS = ["sensor"] 
 
 
 SENSOR_NAME_TODAY = "日期"
