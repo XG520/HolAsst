@@ -8,6 +8,6 @@
 
 ![png2](https://attachment.hasstatic.com/forum/202501/17/141746l8kgfky4gi3ygkq1.png)
 - 插件名称：节假日助手
-- 关于安装：把下载的包解压后放到homeassistant 的 /config/custom_components/ 目录下 ，重启homeassistant , 再到集成搜索插件名称 
+- 关于安装：直接下载整个项目的zip包，把下载的包解压后放到homeassistant 的 /config/custom_components/ 目录下 ，重启homeassistant , 再到集成搜索插件名称 
 - 项目地址：https://github.com/XG520/HolAsst
 - 作用：用于判断当日是否为工作日而实现相应的自动化
