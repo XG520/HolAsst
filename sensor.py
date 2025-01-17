@@ -40,7 +40,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_e
     entities = [date_entity, is_holiday_entity, tag_entity]
     async_add_entities(entities)
 
-    async def update_entities():
+    async def update_entities(time=None):
         _LOGGER.info("Updating holiday info...")
         data = await get_today_info(holidays, force_workdays, rest_days)
         if data:
