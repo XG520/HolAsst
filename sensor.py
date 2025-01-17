@@ -123,6 +123,10 @@ class DateEntity(BaseEntity):
     @property
     def unique_id(self) -> str:
         return f"date_{self._username}"
+    
+    @property
+    def icon(self) -> str:
+        return "mdi:calendar-account"
 
     @property
     def name(self) -> str:
@@ -138,6 +142,13 @@ class IsHolidayEntity(BaseEntity):
     @property
     def unique_id(self) -> str:
         return f"is_holiday_{self._username}"
+    
+    @property
+    def icon(self) -> str:
+        if self._state == "True":
+            return "mmdi:coffee"
+        else:
+            return "mdi:briefcase"
 
     @property
     def name(self) -> str:
@@ -153,6 +164,10 @@ class TagEntity(BaseEntity):
     @property
     def unique_id(self) -> str:
         return f"tag_{self._username}"
+    
+    @property
+    def icon(self) -> str:
+        return "mdi:calendar-weekend"
 
     @property
     def name(self) -> str:
