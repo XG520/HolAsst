@@ -11,7 +11,7 @@ _LOGGER = logging.getLogger(f"{LOGGER_NAME}_{__name__}")
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     hass.data.setdefault(DOMAIN, {})
     try:
-        await hass.config_entries.async_forward_entry_setup(entry, "sensor")
+        await hass.config_entries.async_forward_entry_setups(entry, ["sensor"])
     except Exception as e:
         _LOGGER.error(f"设置传感器平台时出错 {entry.title}: {e}")
         return False
