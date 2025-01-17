@@ -141,7 +141,7 @@ class IsHolidayEntity(BaseEntity):
 
     @property
     def name(self) -> str:
-        return "是否为休息日"
+        return "今天是否为休息日"
 
 
 class TagEntity(BaseEntity):
