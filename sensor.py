@@ -1,7 +1,7 @@
 import logging
 import json
 from datetime import timedelta
-from homeassistant.helpers.event import async_track_time_interval
+from homeassistant.helpers.event import async_track_time_change, async_track_time_interval
 from homeassistant.helpers.entity import Entity
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
@@ -51,8 +51,9 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_e
         else:
             _LOGGER.warning("No data returned from get_today_info.")
 
-    async_track_time_interval(hass, update_entities, timedelta(hours=2))
-
+    # async_track_time_interval(hass, update_entities, timedelta(hours=2))
+    async_track_time_change(hass, update_entities, hour=0, minute=0, second=0)
+    
     await update_entities()
 
     return True
