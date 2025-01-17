@@ -36,6 +36,7 @@ DEFAULT_FORCE_WORKDAYS = "0126,0208,0427,0928,1011"
 DOMAIN = "hol_asst"
 LOGGER_NAME = f"{DOMAIN}_logger"
 
+CONF_USERNAME = "username"
 CONF_HOLIDAYS = "holidays"
 CONF_FORCE_WORKDAYS = "force_workdays"
 CONF_CUSTOM_REST_DAYS = "rest_days"
