@@ -8,6 +8,22 @@
 
 ![png2](https://attachment.hasstatic.com/forum/202501/17/141746l8kgfky4gi3ygkq1.png)
 - 插件名称：节假日助手
-- 关于安装：直接下载整个项目的zip包，把下载的包解压后放到homeassistant 的 /config/custom_components/ 目录下 ，重启homeassistant , 再到集成搜索插件名称 
+## 安装指引
+
+### 方式一：HACS一键安装（推荐）
+1. 确保已经安装了 [HACS](https://hacs.xyz/)
+2. 在HACS中点击"自定义存储库"
+3. 添加此仓库地址：`https://github.com/XG520/HolAsst`
+4. 类别选择"集成"
+5. 点击"添加"
+6. 在HACS的集成页面中搜索"KiwiOT"
+7. 点击"下载"进行安装
+8. 重启Home Assistant
+
+### 方式二：手动安装
+1. 下载此仓库的最新版本
+2. 将 `custom_components/kiwiot_ws` 文件夹复制到你的Home Assistant配置目录下的 `custom_components` 文件夹中
+3. 重启Home Assistant
+
 - 项目地址：https://github.com/XG520/HolAsst
 - 作用：用于判断当日是否为工作日而实现相应的自动化
