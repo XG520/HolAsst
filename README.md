@@ -16,13 +16,13 @@
 3. 添加此仓库地址：`https://github.com/XG520/HolAsst`
 4. 类别选择"集成"
 5. 点击"添加"
-6. 在HACS的集成页面中搜索"KiwiOT"
+6. 在HACS的集成页面中搜索"节假日助手"
 7. 点击"下载"进行安装
 8. 重启Home Assistant
 
 ### 方式二：手动安装
 1. 下载此仓库的最新版本
-2. 将 `custom_components/kiwiot_ws` 文件夹复制到你的Home Assistant配置目录下的 `custom_components` 文件夹中
+2. 将 `custom_components/hol_asst` 文件夹复制到你的Home Assistant配置目录下的 `custom_components` 文件夹中
 3. 重启Home Assistant
 
 - 项目地址：https://github.com/XG520/HolAsst
