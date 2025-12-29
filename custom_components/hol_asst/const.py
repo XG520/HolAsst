@@ -35,7 +35,6 @@ DEFAULT_HOLIDAYS: Dict[str, str] = {
 }
 
 DEFAULT_FORCE_WORKDAYS = "0104,0214,0228,0509,0920,1010"
-
 DOMAIN = "hol_asst"
 LOGGER_NAME = f"{DOMAIN}_logger"
 
